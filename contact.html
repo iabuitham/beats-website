@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Beats Events Production</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html">
+        <div class="logo">
+                    <img src="assets/img/logo/logo.png">
+
+        </div>
+        <div><div>BEATS EVENTS</div><small>Production • Jordan • Qatar • KSA</small></div>
+      </a>
+      <nav class="navlinks">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="artists.html">Artists</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-right">
+        <a class="btn" href="portfolio.html">See Work</a>
+        <button class="btn burger" data-burger type="button">Menu</button>
+      </div>
+    </div>
+    <div class="mobile" data-mobile>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="artists.html">Artists</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <span class="pill">Let’s build something unforgettable</span>
+    <h2>Contact Us</h2>
+    <p class="lead">
+      Tell us what you’re planning—our team will respond with the right production approach, timeline, and budget options.
+    </p>
+
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Direct</h3>
+        <p><b>Email:</b> info@beatsevents.com</p>
+        <p><b>Phone:</b> +962 79 998 8254 / +962 79 080 1814</p>
+        <p><b>Website:</b> www.beatsevents.com</p>
+        <div class="hr"></div>
+        <h3>Social</h3>
+        <p><b>Instagram:</b> @beatseventspro • @beatsweddings</p>
+        <p><b>Facebook:</b> Beats Events</p>
+        <p><b>YouTube:</b> Beats Events Channel</p>
+      </div>
+
+      <div class="card">
+        <h3>Inquiry Form</h3>
+        <p style="color:var(--muted);margin-top:0">This is a front-end form. Connect it to email/CRM later.</p>
+
+        <form data-contact-form>
+          <div style="display:grid;gap:12px;margin-top:14px">
+            <input required placeholder="Full name" style="padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text)">
+            <input required type="email" placeholder="Email" style="padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text)">
+            <input placeholder="Event type (corporate / wedding / festival…)" style="padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text)">
+            <textarea required rows="5" placeholder="Tell us about your event (date, city, guests, venue, needs...)" style="padding:12px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text)"></textarea>
+            <button class="btn primary" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div>
+        <div class="brand" style="margin-bottom:10px">
+          <div class="logo" aria-hidden="true">
+            <img src="assets/img/logo/logo.png">
+          </div>
+          <div><b>Beats Events Production</b><br/><small>Jordan • Qatar • KSA</small></div>
+        </div>
+        <small>© <span id="y"></span> Beats Events Production. All rights reserved.</small>
+      </div>
+      <div>
+        <small><b>Social</b></small><br/>
+        <small>Instagram: @beatseventspro • @beatsweddings</small><br/>
+        <small>Facebook: Beats Events • YouTube: Beats Events Channel</small>
+      </div>
+      <div>
+        <small><b>Contact</b></small><br/>
+        <small>Email: info@beatsevents.com</small><br/>
+        <small>Phone: +962 79 998 8254 / +962 79 080 1814</small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
